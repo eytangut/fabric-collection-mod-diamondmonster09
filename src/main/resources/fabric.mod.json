@@ -1,29 +1,32 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "servermod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "A Mod For My Server With Namer1234 And MegaZee",
+  "description": "I Think The Title Is Pretty Self-Explanatory, No?",
   "authors": [
-    "Me!"
+    "DiamondMonster09"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT License",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.eytangut.servermod.ServerMod"
+    ],
+    "client": [
+      "com.eytangut.servermod.ServerModClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "servermod.mixins.json"
   ],
 
   "depends": {
