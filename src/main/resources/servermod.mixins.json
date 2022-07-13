@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "com.eytangut.servermod.mixin.ExampleMixin"
+    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1
