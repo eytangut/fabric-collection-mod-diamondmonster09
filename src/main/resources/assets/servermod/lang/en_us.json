@@ -3,5 +3,6 @@
   "item.servermod.one_hundred_dice": "100 Sided Die",
   "item.servermod.one_thousand_dice": "1000 Sided Die",
   "item.servermod.bug": "BUGGED ITEM",
-  "itemGroup.servermod.collection": "Modded Items"
+  "itemGroup.servermod.collection": "Modded Items",
+  "block.servermod.bug_block": "BUGGED BLOCK"
 }
